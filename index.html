@@ -11,40 +11,36 @@
       <figcaption>Fig 1 - Screenshot of Trained Agent playing MsPacman</figcaption>
       
       <h2>Summary</h2>
-      <p>
-        I developed an agent to play the game MsPacman using deep reinforcement learning. Specifically, I used the A3C Algorithm (Asynchronous Advantage Actor-Critic)
-        as it provides the following advantages:
-        <ul>
-          <li>Combines both value and policy based learning using Actor-Critic model for more complex environments.</li>
-          <li>Advantage function provides more robustness as it reduces variance in policy networks.</li>
-          <li>Asynchronous nature means that multiple "worker" threads can update global model independently, leading to faster convergence.</li>
-        </ul>
-      </p>
+      I developed an agent to play the game MsPacman using deep reinforcement learning. Specifically, I used the A3C Algorithm (Asynchronous Advantage Actor-Critic)
+      as it provides the following advantages:
+      <ul>
+        <li>Combines both value and policy based learning using Actor-Critic model for more complex environments.</li>
+        <li>Advantage function provides more robustness as it reduces variance in policy networks.</li>
+        <li>Asynchronous nature means that multiple "worker" threads can update global model independently, leading to faster convergence.</li>
+      </ul>
 
       <h2>Result</h2>
-      <p>
-        The result of the trained agent was averaged over multiple seeds and compared to the average score when playing with random selection.
-        <table>
-          <tr>
-            <th></th>
-            <th>Average score</th>
-          </tr>
-          <tr>
-            <td>Random Input</td>
-            <td>350</td>
-          </tr>
-          <tr>
-            <td>Trained Agent</td>
-            <td>3600</td>
-          </tr>
-        </table>
-        These results demonstrate that the algorithm learned through gameplay, and yielded over 10x the average performance when compared to
-        random inputs.
-      </p>
+      The result of the trained agent was averaged over multiple seeds and compared to the average score when playing with random selection.
+      <table>
+        <tr>
+          <th></th>
+          <th>Average score</th>
+        </tr>
+        <tr>
+          <td>Random Input</td>
+          <td>350</td>
+        </tr>
+        <tr>
+          <td>Trained Agent</td>
+          <td>3600</td>
+        </tr>
+      </table>
+      These results demonstrate that the algorithm learned through gameplay, and yielded over 10x the average performance when compared to
+      random inputs.
 
       <h2>Links</h2>
       <ul>
-        <li><a target="_blank" href="adityawadaskar.github.io">Source Code for Website</a></li>
+        <li><a target="_blank" href="https://github.com/adityawadaskar/adityawadaskar.github.io">Source Code for Website</a></li>
         <li><a target="_blank" href="https://github.com/adityawadaskar/reinforcement-learning-pacman-a3c">MsPacman A3C Repo</a></li>
       </ul>
     </div>
